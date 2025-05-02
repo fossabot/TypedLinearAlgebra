@@ -1,0 +1,37 @@
+<map id="/github/workspace/support/eigexed/fcarouge/linalg.hpp" name="/github/workspace/support/eigexed/fcarouge/linalg.hpp">
+<area shape="rect" id="Node000001" title="Scalar type linear algebra with Eigen implementation." alt="" coords="232,5,413,46"/>
+<area shape="rect" id="Node000002" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="202,102,333,127"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="312,48,285,90,281,87,308,45"/>
+<area shape="rect" id="Node000003" href="$utility_8hpp.xhtml" title="The collection of utilities supporting the library." alt="" coords="320,183,450,208"/>
+<area shape="poly" id="edge20_Node000001_Node000003" title=" " alt="" coords="332,45,378,167,373,169,327,47"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="405,330,469,356"/>
+<area shape="poly" id="edge21_Node000001_Node000006" title=" " alt="" coords="232,47,143,71,100,87,62,105,31,127,13,151,9,164,9,177,13,191,22,207,58,246,103,277,152,300,204,317,256,329,306,336,389,340,389,345,305,341,255,334,202,322,150,305,100,282,55,250,17,210,8,194,3,178,4,163,8,148,28,123,59,101,98,82,142,66,230,42"/>
+<area shape="rect" id="Node000013" href="$typed__linear__algebra_8hpp.xhtml" title="Index typed linear algebra implementation." alt="" coords="415,94,560,135"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="361,44,438,84,436,89,359,49"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="287,125,356,171,353,176,284,130"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="238,183,297,208"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="270,128,270,167,265,167,265,128"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="145,183,214,208"/>
+<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="256,130,206,174,203,170,252,126"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="32,183,122,208"/>
+<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="239,130,121,179,119,174,237,125"/>
+<area shape="rect" id="Node000004" href="$internal_2utility_8hpp.xhtml" title=" " alt="" coords="512,256,634,282"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="418,206,527,248,526,253,416,211"/>
+<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="392,208,430,315,425,316,387,210"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="335,256,387,282"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="383,209,372,243,367,241,378,208"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="685,330,759,356"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="599,280,684,321,682,325,597,285"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="551,285,475,325,472,320,549,280"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="612,330,662,356"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="585,280,618,317,614,320,582,284"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="507,330,588,356"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="571,283,559,316,554,314,566,281"/>
+<area shape="poly" id="edge14_Node000013_Node000003" title=" " alt="" coords="464,137,414,175,411,171,461,133"/>
+<area shape="poly" id="edge15_Node000013_Node000005" title=" " alt="" coords="561,128,613,148,638,163,660,181,684,212,702,248,721,314,716,315,697,250,680,215,656,185,635,167,611,153,559,133"/>
+<area shape="poly" id="edge16_Node000013_Node000006" title=" " alt="" coords="486,136,446,315,440,314,481,135"/>
+<area shape="poly" id="edge19_Node000013_Node000007" title=" " alt="" coords="561,131,601,151,619,165,635,181,651,214,656,250,653,286,648,316,642,314,648,285,651,250,646,215,631,184,616,169,598,156,559,136"/>
+<area shape="poly" id="edge17_Node000013_Node000010" title=" " alt="" coords="434,138,312,181,310,176,432,133"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="525,183,621,208"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="510,133,550,170,547,174,507,137"/>
+</map>
