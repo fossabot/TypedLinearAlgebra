@@ -1,26 +1,28 @@
 <map id="/github/workspace/support/eigen/fcarouge/linalg.hpp" name="/github/workspace/support/eigen/fcarouge/linalg.hpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="210,5,385,46"/>
-<area shape="rect" id="Node000002" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="259,94,336,120"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="300,46,300,78,295,78,295,46"/>
-<area shape="rect" id="Node000003" href="$utility_8hpp.xhtml" title="The collection of utilities supporting the library." alt="" coords="72,168,201,193"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="271,123,179,163,176,159,269,118"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="224,168,283,193"/>
-<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="293,121,271,156,267,153,288,118"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="307,168,376,193"/>
-<area shape="poly" id="edge11_Node000002_Node000011" title=" " alt="" coords="307,118,328,153,324,156,302,121"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="400,168,489,193"/>
-<area shape="poly" id="edge12_Node000002_Node000012" title=" " alt="" coords="324,118,407,158,404,163,321,123"/>
-<area shape="rect" id="Node000004" href="$internal_2utility_8hpp.xhtml" title=" " alt="" coords="76,241,197,267"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="139,194,139,226,134,226,134,194"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="5,315,70,341"/>
-<area shape="poly" id="edge8_Node000003_Node000006" title=" " alt="" coords="118,196,91,216,66,243,52,271,44,300,39,299,47,269,62,240,87,212,115,191"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="221,241,272,267"/>
-<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="156,192,217,230,214,235,153,196"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="94,315,168,341"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="138,267,136,300,130,299,133,267"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="121,270,68,308,65,304,118,265"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="192,315,241,341"/>
-<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="152,266,193,303,190,307,148,270"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="265,315,346,341"/>
-<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="166,265,264,306,261,311,164,270"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="429,5,603,46"/>
+<area shape="rect" id="Node000002" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="478,94,554,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="518,46,518,78,513,78,513,46"/>
+<area shape="rect" id="Node000003" href="$typed__linear__algebra_8hpp.xhtml" title="Index typed linear algebra implementation." alt="" coords="250,168,395,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="487,123,386,164,384,159,485,118"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="499,264,557,290"/>
+<area shape="poly" id="edge12_Node000002_Node000009" title=" " alt="" coords="515,120,508,160,508,208,519,248,514,250,503,209,502,159,510,119"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="518,175,586,201"/>
+<area shape="poly" id="edge13_Node000002_Node000011" title=" " alt="" coords="524,119,543,160,538,162,519,121"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="610,175,699,201"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="538,118,621,165,619,170,536,122"/>
+<area shape="rect" id="Node000004" href="$utility_8hpp.xhtml" title=" " alt="" coords="77,256,216,297"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="284,211,201,252,199,247,281,206"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,345,80,371"/>
+<area shape="poly" id="edge7_Node000003_Node000005" title=" " alt="" coords="251,202,143,225,97,240,67,258,56,274,49,293,44,330,39,329,44,291,51,272,63,254,94,236,141,220,249,197"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="219,345,268,371"/>
+<area shape="poly" id="edge11_Node000003_Node000006" title=" " alt="" coords="310,210,281,258,265,295,254,331,249,329,260,293,276,255,306,207"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="290,264,355,290"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="325,209,325,248,320,248,320,209"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="373,206,488,254,489,255,487,260,485,259,371,211"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="379,264,474,290"/>
+<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="348,207,402,252,399,256,344,211"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="122,300,72,337,69,333,119,295"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="172,295,219,333,215,337,169,299"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="106,345,187,371"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="149,297,149,329,144,329,144,297"/>
 </map>

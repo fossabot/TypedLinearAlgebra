@@ -126,20 +126,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad60373a22952f78108372e0bdc6d6d29" id="r_ad60373a22952f78108372e0bdc6d6d29"><td class="memTemplParams" colspan="2">template&lt;typename OutputIterator &gt; </td></tr>
 <tr class="memitem:ad60373a22952f78108372e0bdc6d6d29"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ad60373a22952f78108372e0bdc6d6d29">format</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</td></tr>
 <tr class="separator:ad60373a22952f78108372e0bdc6d6d29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a434383a0f53fb235dffee6e176e46315" id="r_a434383a0f53fb235dffee6e176e46315"><td class="memTemplParams" colspan="2">template&lt;typename OutputIterator &gt; <br />
-requires <a class="el" href="conceptfcarouge_1_1row.xhtml">fcarouge::row</a>&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</td></tr>
-<tr class="memitem:a434383a0f53fb235dffee6e176e46315"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a434383a0f53fb235dffee6e176e46315">format</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</td></tr>
-<tr class="separator:a434383a0f53fb235dffee6e176e46315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2734adbd1124b5f28a0d620eab4b0ac5" id="r_a2734adbd1124b5f28a0d620eab4b0ac5"><td class="memTemplParams" colspan="2">template&lt;typename OutputIterator &gt; <br />
-requires <a class="el" href="conceptfcarouge_1_1singleton.xhtml">fcarouge::singleton</a>&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</td></tr>
-<tr class="memitem:a2734adbd1124b5f28a0d620eab4b0ac5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a2734adbd1124b5f28a0d620eab4b0ac5">format</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</td></tr>
-<tr class="separator:a2734adbd1124b5f28a0d620eab4b0ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace884788d7e090f31998bb8afa30c18e" id="r_ace884788d7e090f31998bb8afa30c18e"><td class="memTemplParams" colspan="2">template&lt;typename OutputIterator &gt; <br />
+requires fcarouge::typed_linear_algebra_internal::row&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</td></tr>
+<tr class="memitem:ace884788d7e090f31998bb8afa30c18e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ace884788d7e090f31998bb8afa30c18e">format</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</td></tr>
+<tr class="separator:ace884788d7e090f31998bb8afa30c18e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4380d13e99a2818fa1b2cc0239f09f9" id="r_ab4380d13e99a2818fa1b2cc0239f09f9"><td class="memTemplParams" colspan="2">template&lt;typename OutputIterator &gt; <br />
+requires fcarouge::typed_linear_algebra_internal::singleton&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</td></tr>
+<tr class="memitem:ab4380d13e99a2818fa1b2cc0239f09f9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab4380d13e99a2818fa1b2cc0239f09f9">format</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</td></tr>
+<tr class="separator:ab4380d13e99a2818fa1b2cc0239f09f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename Matrix, typename RowIndexes, typename ColumnIndexes, typename Char&gt;<br />
 struct std::formatter&lt; fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;</div><p>Specialization of the standard formatter for the typed matrix. </p>
 
-<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00446">446</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00412">412</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ad60373a22952f78108372e0bdc6d6d29" name="ad60373a22952f78108372e0bdc6d6d29"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad60373a22952f78108372e0bdc6d6d29">&#9670;&#160;</a></span>format() <span class="overload">[1/3]</span></h2>
@@ -172,39 +172,97 @@ template&lt;typename OutputIterator &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00420">420</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  422</span>                        {</div>
+<div class="line"><span class="lineno">  423</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
+<div class="line"><span class="lineno">  424</span> </div>
+<div class="line"><span class="lineno">  425</span>    <span class="keywordflow">for</span> (std::size_t i{0};</div>
+<div class="line"><span class="lineno">  426</span>         i &lt; fcarouge::typed_linear_algebra_internal::size&lt;RowIndexes&gt;; ++i) {</div>
+<div class="line"><span class="lineno">  427</span>      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><span class="lineno">  428</span>        format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
+<div class="line"><span class="lineno">  429</span>      }</div>
+<div class="line"><span class="lineno">  430</span> </div>
+<div class="line"><span class="lineno">  431</span>      format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
+<div class="line"><span class="lineno">  432</span> </div>
+<div class="line"><span class="lineno">  433</span>      <span class="keywordflow">for</span> (std::size_t j{0};</div>
+<div class="line"><span class="lineno">  434</span>           j &lt; fcarouge::typed_linear_algebra_internal::size&lt;ColumnIndexes&gt;;</div>
+<div class="line"><span class="lineno">  435</span>           ++j) {</div>
+<div class="line"><span class="lineno">  436</span>        <span class="keywordflow">if</span> (j &gt; 0) {</div>
+<div class="line"><span class="lineno">  437</span>          format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
+<div class="line"><span class="lineno">  438</span>        }</div>
+<div class="line"><span class="lineno">  439</span> </div>
+<div class="line"><span class="lineno">  440</span>        format_context.advance_to(</div>
+<div class="line"><span class="lineno">  441</span>            std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.<a class="code hl_variable" href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">data</a>(i, j)));</div>
+<div class="line"><span class="lineno">  442</span>      }</div>
+<div class="line"><span class="lineno">  443</span> </div>
+<div class="line"><span class="lineno">  444</span>      format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
+<div class="line"><span class="lineno">  445</span>    }</div>
+<div class="line"><span class="lineno">  446</span> </div>
+<div class="line"><span class="lineno">  447</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
+<div class="line"><span class="lineno">  448</span> </div>
+<div class="line"><span class="lineno">  449</span>    <span class="keywordflow">return</span> format_context.out();</div>
+<div class="line"><span class="lineno">  450</span>  }</div>
+<div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml_aa5db2a2356369dbf5807f3760aa04d4d"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">fcarouge::typed_matrix::data</a></div><div class="ttdeci">Matrix data</div><div class="ttdef"><b>Definition</b> <a href="typed__linear__algebra_8hpp_source.xhtml#l00097">typed_linear_algebra.hpp:97</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ace884788d7e090f31998bb8afa30c18e" name="ace884788d7e090f31998bb8afa30c18e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace884788d7e090f31998bb8afa30c18e">&#9670;&#160;</a></span>format() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Matrix , typename RowIndexes , typename ColumnIndexes , typename Char &gt; </div>
+<div class="memtemplate">
+template&lt;typename OutputIterator &gt; <br />
+requires fcarouge::typed_linear_algebra_internal::row&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto std::formatter&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;::format </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::basic_format_context&lt; OutputIterator, Char &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>format_context</em></span>&#160;) const -&gt; OutputIterator
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00454">454</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  456</span>                        {</div>
-<div class="line"><span class="lineno">  457</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
-<div class="line"><span class="lineno">  458</span> </div>
-<div class="line"><span class="lineno">  459</span>    <span class="keywordflow">for</span> (std::size_t i{0}; i &lt; fcarouge::size&lt;RowIndexes&gt;; ++i) {</div>
-<div class="line"><span class="lineno">  460</span>      <span class="keywordflow">if</span> (i &gt; 0) {</div>
-<div class="line"><span class="lineno">  461</span>        format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
-<div class="line"><span class="lineno">  462</span>      }</div>
-<div class="line"><span class="lineno">  463</span> </div>
-<div class="line"><span class="lineno">  464</span>      format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
-<div class="line"><span class="lineno">  465</span> </div>
-<div class="line"><span class="lineno">  466</span>      <span class="keywordflow">for</span> (std::size_t j{0}; j &lt; fcarouge::size&lt;ColumnIndexes&gt;; ++j) {</div>
-<div class="line"><span class="lineno">  467</span>        <span class="keywordflow">if</span> (j &gt; 0) {</div>
-<div class="line"><span class="lineno">  468</span>          format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
-<div class="line"><span class="lineno">  469</span>        }</div>
-<div class="line"><span class="lineno">  470</span> </div>
-<div class="line"><span class="lineno">  471</span>        format_context.advance_to(</div>
-<div class="line"><span class="lineno">  472</span>            std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.<a class="code hl_variable" href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">data</a>(i, j)));</div>
-<div class="line"><span class="lineno">  473</span>      }</div>
+<div class="fragment"><div class="line"><span class="lineno">  459</span>  {</div>
+<div class="line"><span class="lineno">  460</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
+<div class="line"><span class="lineno">  461</span> </div>
+<div class="line"><span class="lineno">  462</span>    <span class="keywordflow">for</span> (std::size_t j{0};</div>
+<div class="line"><span class="lineno">  463</span>         j &lt; fcarouge::typed_linear_algebra_internal::size&lt;ColumnIndexes&gt;;</div>
+<div class="line"><span class="lineno">  464</span>         ++j) {</div>
+<div class="line"><span class="lineno">  465</span>      <span class="keywordflow">if</span> (j &gt; 0) {</div>
+<div class="line"><span class="lineno">  466</span>        format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
+<div class="line"><span class="lineno">  467</span>      }</div>
+<div class="line"><span class="lineno">  468</span> </div>
+<div class="line"><span class="lineno">  469</span>      format_context.advance_to(</div>
+<div class="line"><span class="lineno">  470</span>          std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.<a class="code hl_variable" href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">data</a>(0, j)));</div>
+<div class="line"><span class="lineno">  471</span>    }</div>
+<div class="line"><span class="lineno">  472</span> </div>
+<div class="line"><span class="lineno">  473</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
 <div class="line"><span class="lineno">  474</span> </div>
-<div class="line"><span class="lineno">  475</span>      format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
-<div class="line"><span class="lineno">  476</span>    }</div>
-<div class="line"><span class="lineno">  477</span> </div>
-<div class="line"><span class="lineno">  478</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
-<div class="line"><span class="lineno">  479</span> </div>
-<div class="line"><span class="lineno">  480</span>    <span class="keywordflow">return</span> format_context.out();</div>
-<div class="line"><span class="lineno">  481</span>  }</div>
-<div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml_aa5db2a2356369dbf5807f3760aa04d4d"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">fcarouge::typed_matrix::data</a></div><div class="ttdeci">Matrix data</div><div class="ttdef"><b>Definition</b> <a href="typed__linear__algebra_8hpp_source.xhtml#l00164">typed_linear_algebra.hpp:164</a></div></div>
+<div class="line"><span class="lineno">  475</span>    <span class="keywordflow">return</span> format_context.out();</div>
+<div class="line"><span class="lineno">  476</span>  }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a434383a0f53fb235dffee6e176e46315" name="a434383a0f53fb235dffee6e176e46315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a434383a0f53fb235dffee6e176e46315">&#9670;&#160;</a></span>format() <span class="overload">[2/3]</span></h2>
+<a id="ab4380d13e99a2818fa1b2cc0239f09f9" name="ab4380d13e99a2818fa1b2cc0239f09f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4380d13e99a2818fa1b2cc0239f09f9">&#9670;&#160;</a></span>format() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +270,7 @@ template&lt;typename OutputIterator &gt; </div>
 template&lt;typename Matrix , typename RowIndexes , typename ColumnIndexes , typename Char &gt; </div>
 <div class="memtemplate">
 template&lt;typename OutputIterator &gt; <br />
-requires <a class="el" href="conceptfcarouge_1_1row.xhtml">fcarouge::row</a>&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</div>
+requires fcarouge::typed_linear_algebra_internal::singleton&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -236,66 +294,13 @@ requires <a class="el" href="conceptfcarouge_1_1row.xhtml">fcarouge::row</a>&lt;
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00485">485</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  490</span>  {</div>
-<div class="line"><span class="lineno">  491</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
-<div class="line"><span class="lineno">  492</span> </div>
-<div class="line"><span class="lineno">  493</span>    <span class="keywordflow">for</span> (std::size_t j{0}; j &lt; fcarouge::size&lt;ColumnIndexes&gt;; ++j) {</div>
-<div class="line"><span class="lineno">  494</span>      <span class="keywordflow">if</span> (j &gt; 0) {</div>
-<div class="line"><span class="lineno">  495</span>        format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
-<div class="line"><span class="lineno">  496</span>      }</div>
-<div class="line"><span class="lineno">  497</span> </div>
-<div class="line"><span class="lineno">  498</span>      format_context.advance_to(</div>
-<div class="line"><span class="lineno">  499</span>          std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.<a class="code hl_variable" href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">data</a>(0, j)));</div>
-<div class="line"><span class="lineno">  500</span>    }</div>
-<div class="line"><span class="lineno">  501</span> </div>
-<div class="line"><span class="lineno">  502</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
-<div class="line"><span class="lineno">  503</span> </div>
-<div class="line"><span class="lineno">  504</span>    <span class="keywordflow">return</span> format_context.out();</div>
-<div class="line"><span class="lineno">  505</span>  }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2734adbd1124b5f28a0d620eab4b0ac5" name="a2734adbd1124b5f28a0d620eab4b0ac5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2734adbd1124b5f28a0d620eab4b0ac5">&#9670;&#160;</a></span>format() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Matrix , typename RowIndexes , typename ColumnIndexes , typename Char &gt; </div>
-<div class="memtemplate">
-template&lt;typename OutputIterator &gt; <br />
-requires <a class="el" href="conceptfcarouge_1_1singleton.xhtml">fcarouge::singleton</a>&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt;Matrix, RowIndexes, ColumnIndexes&gt;&gt;</div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto std::formatter&lt; <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;::format </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::basic_format_context&lt; OutputIterator, Char &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>format_context</em></span>&#160;) const -&gt; OutputIterator
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00509">509</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  514</span>  {</div>
-<div class="line"><span class="lineno">  515</span>    format_context.advance_to(</div>
-<div class="line"><span class="lineno">  516</span>        std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.<a class="code hl_variable" href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">data</a>(0, 0)));</div>
-<div class="line"><span class="lineno">  517</span> </div>
-<div class="line"><span class="lineno">  518</span>    <span class="keywordflow">return</span> format_context.out();</div>
-<div class="line"><span class="lineno">  519</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00480">480</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  485</span>  {</div>
+<div class="line"><span class="lineno">  486</span>    format_context.advance_to(</div>
+<div class="line"><span class="lineno">  487</span>        std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.<a class="code hl_variable" href="structfcarouge_1_1typed__matrix.xhtml#aa5db2a2356369dbf5807f3760aa04d4d">data</a>(0, 0)));</div>
+<div class="line"><span class="lineno">  488</span> </div>
+<div class="line"><span class="lineno">  489</span>    <span class="keywordflow">return</span> format_context.out();</div>
+<div class="line"><span class="lineno">  490</span>  }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -324,10 +329,10 @@ template&lt;typename Matrix , typename RowIndexes , typename ColumnIndexes , typ
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00448">448</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  448</span>                                                                           {</div>
-<div class="line"><span class="lineno">  449</span>    <span class="keywordflow">return</span> parse_context.begin();</div>
-<div class="line"><span class="lineno">  450</span>  }</div>
+<p class="definition">Definition at line <a class="el" href="typed__linear__algebra_8hpp_source.xhtml#l00414">414</a> of file <a class="el" href="typed__linear__algebra_8hpp_source.xhtml">typed_linear_algebra.hpp</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  414</span>                                                                           {</div>
+<div class="line"><span class="lineno">  415</span>    <span class="keywordflow">return</span> parse_context.begin();</div>
+<div class="line"><span class="lineno">  416</span>  }</div>
 </div><!-- fragment -->
 </div>
 </div>
