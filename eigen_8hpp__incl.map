@@ -1,6 +1,6 @@
 <map id="/github/workspace/support/eigen/fcarouge/eigen.hpp" name="/github/workspace/support/eigen/fcarouge/eigen.hpp">
 <area shape="rect" id="Node000001" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="429,5,603,46"/>
-<area shape="rect" id="Node000002" href="$typed__linear__algebra_8hpp.xhtml" title="Index typed linear algebra implementation." alt="" coords="250,94,395,135"/>
+<area shape="rect" id="Node000002" href="$typed__linear__algebra_8hpp.xhtml" title="Typed linear algebra implementation." alt="" coords="250,94,395,135"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,49,382,90,379,85,471,44"/>
 <area shape="rect" id="Node000008" title=" " alt="" coords="499,190,557,216"/>
 <area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="513,47,507,87,508,134,519,175,514,176,503,135,502,87,508,46"/>

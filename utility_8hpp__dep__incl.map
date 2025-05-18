@@ -1,6 +1,6 @@
 <map id="/github/workspace/include/fcarouge/typed_linear_algebra_internal/utility.hpp" name="/github/workspace/include/fcarouge/typed_linear_algebra_internal/utility.hpp">
 <area shape="rect" id="Node000001" title=" " alt="" coords="142,5,320,61"/>
-<area shape="rect" id="Node000002" href="$typed__linear__algebra_8hpp.xhtml" title="Index typed linear algebra implementation." alt="" coords="145,109,317,165"/>
+<area shape="rect" id="Node000002" href="$typed__linear__algebra_8hpp.xhtml" title="Typed linear algebra implementation." alt="" coords="145,109,317,165"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,77,234,108,228,108,228,77"/>
 <area shape="rect" id="Node000003" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="83,213,257,253"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,179,185,214,180,211,203,176"/>

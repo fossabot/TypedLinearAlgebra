@@ -2,7 +2,7 @@
 <area shape="rect" id="Node000001" title="Scalar type linear algebra with Eigen implementation." alt="" coords="147,5,328,46"/>
 <area shape="rect" id="Node000002" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="314,94,444,120"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="274,44,345,84,343,88,272,49"/>
-<area shape="rect" id="Node000003" href="$typed__linear__algebra_8hpp.xhtml" title="Index typed linear algebra implementation." alt="" coords="165,168,310,208"/>
+<area shape="rect" id="Node000003" href="$typed__linear__algebra_8hpp.xhtml" title="Typed linear algebra implementation." alt="" coords="165,168,310,208"/>
 <area shape="poly" id="edge15_Node000001_Node000003" title=" " alt="" coords="240,47,240,152,235,152,235,47"/>
 <area shape="rect" id="Node000008" title=" " alt="" coords="5,264,70,290"/>
 <area shape="poly" id="edge16_Node000001_Node000008" title=" " alt="" coords="224,48,58,254,54,250,220,45"/>

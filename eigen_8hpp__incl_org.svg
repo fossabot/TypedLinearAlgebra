@@ -21,7 +21,7 @@
 <!-- Node2 -->
 <g id="Node000002" class="node">
 <title>Node2</title>
-<g id="a_Node000002"><a xlink:href="typed__linear__algebra_8hpp.xhtml" target="_top" xlink:title="Index typed linear algebra implementation.">
+<g id="a_Node000002"><a xlink:href="typed__linear__algebra_8hpp.xhtml" target="_top" xlink:title="Typed linear algebra implementation.">
 <polygon fill="white" stroke="#666666" points="292,-152.25 183.75,-152.25 183.75,-121.75 292,-121.75 292,-152.25"/>
 <text text-anchor="start" x="191.75" y="-138.75" font-family="Helvetica,sans-Serif" font-size="10.00">fcarouge/typed_linear</text>
 <text text-anchor="middle" x="237.88" y="-127.5" font-family="Helvetica,sans-Serif" font-size="10.00">_algebra.hpp</text>
