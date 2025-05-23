@@ -19,18 +19,5 @@ var namespacefcarouge =
     [ "column_vector", "namespacefcarouge.xhtml#ad06bb441aa2dcec149c52de0c297a967", null ],
     [ "matrix", "namespacefcarouge.xhtml#a2d5d861aa25651be3549e278fd1e21e6", null ],
     [ "typed_column_vector", "namespacefcarouge.xhtml#a68cfd1293d8131d82ca584d6dcfdd02b", null ],
-    [ "typed_row_vector", "namespacefcarouge.xhtml#a83509db0f0eee1994d5e9a9f221a67a8", null ],
-    [ "operator*", "namespacefcarouge.xhtml#ab5188040accde0f221f236d8735c3837", null ],
-    [ "operator*", "namespacefcarouge.xhtml#a016305f330897bacd2e9ebf45ee9de9b", null ],
-    [ "operator*", "namespacefcarouge.xhtml#a00e7c3ec7b458e47794790e050cb59fe", null ],
-    [ "operator*", "namespacefcarouge.xhtml#a689eeae805b2d8789e9a0267821b0d15", null ],
-    [ "operator*", "namespacefcarouge.xhtml#a537752ac8f1801cfe82cd1c3c909239d", null ],
-    [ "operator+", "namespacefcarouge.xhtml#acc43e870ad62cca22e63913816f0654d", null ],
-    [ "operator+", "namespacefcarouge.xhtml#af0d698433b36932e574f63ebe64d7a69", null ],
-    [ "operator-", "namespacefcarouge.xhtml#a3533f0e5d01c0ae5533ea62a07bcbdc4", null ],
-    [ "operator-", "namespacefcarouge.xhtml#aef1009e17aa266a3adc5fba6bd3322b3", null ],
-    [ "operator/", "namespacefcarouge.xhtml#a2d3a03801f15365fe149ff21355a6d6e", null ],
-    [ "operator/", "namespacefcarouge.xhtml#a0f96a907020c9f05bc2d00576ed4deb7", null ],
-    [ "operator/", "namespacefcarouge.xhtml#ab036216395f2fd7b69e4246285d10098", null ],
-    [ "operator==", "namespacefcarouge.xhtml#aedd2b285823a2feb3a21d4942829a8c2", null ]
+    [ "typed_row_vector", "namespacefcarouge.xhtml#a83509db0f0eee1994d5e9a9f221a67a8", null ]
 ];

@@ -1,24 +1,26 @@
 <map id="/github/workspace/include/fcarouge/typed_linear_algebra.hpp" name="/github/workspace/include/fcarouge/typed_linear_algebra.hpp">
-<area shape="rect" id="Node000001" title="Typed linear algebra implementation." alt="" coords="158,5,330,61"/>
-<area shape="rect" id="Node000002" href="$format_8hpp.xhtml" title="Formatting support for the typed matrix." alt="" coords="68,109,207,150"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="215,64,173,101,169,97,211,60"/>
-<area shape="rect" id="Node000003" href="$utility_8hpp.xhtml" title=" " alt="" coords="201,198,276,223"/>
-<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="256,61,266,103,267,127,265,150,254,184,249,183,260,149,262,126,260,104,251,62"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="13,271,88,297"/>
-<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="158,50,96,73,67,89,42,111,21,137,10,162,9,189,16,222,34,258,29,260,11,224,4,190,5,161,16,134,38,107,64,85,94,68,156,45"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="317,271,366,297"/>
-<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="262,60,285,108,315,188,336,255,331,257,310,190,280,110,257,63"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="25,198,89,223"/>
-<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="158,49,130,58,102,71,78,88,58,110,51,127,48,146,52,183,47,183,43,146,45,126,54,108,74,84,100,67,128,54,156,44"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="115,198,173,223"/>
-<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="246,62,239,105,232,129,221,151,202,173,181,191,177,187,199,169,216,148,227,127,234,104,240,61"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="383,116,478,142"/>
-<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="299,59,394,107,392,112,297,64"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="164,148,213,186,210,190,161,152"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="119,152,82,188,78,185,116,148"/>
-<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="142,150,144,182,139,182,136,150"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="208,226,98,268,96,263,206,221"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="258,222,313,260,310,264,254,226"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="198,271,279,297"/>
-<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="241,224,241,256,236,256,236,224"/>
+<area shape="rect" id="Node000001" title="Typed linear algebra implementation." alt="" coords="159,5,332,61"/>
+<area shape="rect" id="Node000002" href="$format_8hpp.xhtml" title="Formatting support for the typed matrix." alt="" coords="123,116,262,157"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,63,212,104,207,102,229,60"/>
+<area shape="rect" id="Node000003" href="$utility_8hpp.xhtml" title=" " alt="" coords="207,213,282,238"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="261,61,276,108,280,137,276,165,262,200,257,198,271,164,275,137,271,110,256,62"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="19,286,93,312"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="160,58,111,80,66,111,36,140,16,169,8,199,15,238,24,256,36,273,32,276,19,259,10,239,3,199,11,166,32,137,62,107,108,75,158,54"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="324,286,373,312"/>
+<area shape="poly" id="edge13_Node000001_Node000005" title=" " alt="" coords="268,60,296,108,327,196,346,271,340,272,322,198,291,110,263,63"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="24,213,88,238"/>
+<area shape="poly" id="edge10_Node000001_Node000007" title=" " alt="" coords="168,64,132,84,101,111,86,131,76,154,63,198,58,197,71,152,82,128,97,107,129,80,165,59"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="120,213,179,238"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="166,64,136,84,113,110,107,132,110,155,120,178,132,198,128,201,115,181,105,157,102,132,109,108,133,80,163,59"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="387,124,483,150"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="298,59,400,114,398,119,295,64"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="507,109,651,165"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="333,57,493,106,492,111,331,63"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="206,156,232,198,227,201,202,159"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="163,160,89,206,86,202,160,155"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="185,159,164,200,160,198,180,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="213,241,103,283,102,278,211,236"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="263,237,320,275,317,280,260,241"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="204,286,285,312"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="247,239,247,271,242,271,242,239"/>
 </map>

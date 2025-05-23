@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.12.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Typed Linear Algebra: /github/workspace/support/eigexed/fcarouge/linalg.hpp Source File</title>
+<title>Typed Linear Algebra: /github/workspace/include/fcarouge/typed_linear_algebra_forward.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -74,7 +74,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('eigexed_2fcarouge_2linalg_8hpp_source.xhtml',''); initResizable(true); });
+$(function(){initNavTree('typed__linear__algebra__forward_8hpp_source.xhtml',''); initResizable(true); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -100,10 +100,10 @@ $(function(){initNavTree('eigexed_2fcarouge_2linalg_8hpp_source.xhtml',''); init
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">linalg.hpp</div></div>
+  <div class="headertitle"><div class="title">typed_linear_algebra_forward.hpp</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="eigexed_2fcarouge_2linalg_8hpp.xhtml">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Typed Linear Algebra</span></div>
+<a href="typed__linear__algebra__forward_8hpp.xhtml">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="comment">/* Typed Linear Algebra</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="comment">Version 0.1.0</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="comment">https://github.com/FrancoisCarouge/TypedLinearAlgebra</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="comment"></span> </div>
@@ -134,44 +134,24 @@ $(function(){initNavTree('eigexed_2fcarouge_2linalg_8hpp_source.xhtml',''); init
 <div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment"></span> </div>
 <div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">For more information, please refer to &lt;https://unlicense.org&gt; */</span></div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#ifndef FCAROUGE_LINALG_HPP</span></div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define FCAROUGE_LINALG_HPP</span></div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="preprocessor">#ifndef FCAROUGE_TYPED_LINEAR_ALGEBRA_FORWARD_HPP</span></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="preprocessor">#define FCAROUGE_TYPED_LINEAR_ALGEBRA_FORWARD_HPP</span></div>
 <div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#include &quot;<a class="code" href="eigen_8hpp.xhtml">fcarouge/eigen.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span><span class="preprocessor">#include &quot;<a class="code" href="typed__linear__algebra_8hpp.xhtml">fcarouge/typed_linear_algebra.hpp</a>&quot;</span></div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#include &lt;cstddef&gt;</span></div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacefcarouge.xhtml">fcarouge</a> {</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Type = <span class="keywordtype">double</span>, std::<span class="keywordtype">size_t</span> Row = 1, std::<span class="keywordtype">size_t</span> Column = 1&gt;</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno"><a class="line" href="namespacefcarouge.xhtml#a2d5d861aa25651be3549e278fd1e21e6">   50</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespacefcarouge_1_1eigen.xhtml#a01e78c3f356b744543b2f25797bcfa84">matrix</a> =</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix&lt;eigen::matrix&lt;Type, Row, Column&gt;</a>,</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>                 <a class="code hl_typedef" href="namespacefcarouge_1_1typed__linear__algebra__internal.xhtml#a4dd57b09634fe03c0fd59b866657ad86">typed_linear_algebra_internal::tuple_n_type&lt;Type, Row&gt;</a>,</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                 <a class="code hl_typedef" href="namespacefcarouge_1_1typed__linear__algebra__internal.xhtml#a4dd57b09634fe03c0fd59b866657ad86">typed_linear_algebra_internal::tuple_n_type&lt;Type, Column&gt;</a>&gt;;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Type = <span class="keywordtype">double</span>, std::<span class="keywordtype">size_t</span> Row = 1&gt;</div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="namespacefcarouge.xhtml#ad06bb441aa2dcec149c52de0c297a967">   57</a></span><span class="keyword">using </span><a class="code hl_typedef" href="namespacefcarouge_1_1eigen.xhtml#a3aae575a4aa6b608a99d02f58b0fc86c">column_vector</a> = <a class="code hl_typedef" href="namespacefcarouge_1_1eigen.xhtml#a01e78c3f356b744543b2f25797bcfa84">matrix&lt;Type, Row, 1&gt;</a>;</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>} <span class="comment">// namespace fcarouge</span></div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#endif </span><span class="comment">// FCAROUGE_LINALG_HPP</span></div>
-<div class="ttc" id="aeigen_8hpp_xhtml"><div class="ttname"><a href="eigen_8hpp.xhtml">eigen.hpp</a></div><div class="ttdoc">Linear algebra facade for Eigen3 third party implementation.</div></div>
-<div class="ttc" id="anamespacefcarouge_1_1eigen_xhtml_a01e78c3f356b744543b2f25797bcfa84"><div class="ttname"><a href="namespacefcarouge_1_1eigen.xhtml#a01e78c3f356b744543b2f25797bcfa84">fcarouge::eigen::matrix</a></div><div class="ttdeci">Eigen::Matrix&lt; Type, Row, Column &gt; matrix</div><div class="ttdoc">Compile-time sized Eigen3 matrix.</div><div class="ttdef"><b>Definition</b> <a href="eigen_8hpp_source.xhtml#l00070">eigen.hpp:70</a></div></div>
-<div class="ttc" id="anamespacefcarouge_1_1eigen_xhtml_a3aae575a4aa6b608a99d02f58b0fc86c"><div class="ttname"><a href="namespacefcarouge_1_1eigen.xhtml#a3aae575a4aa6b608a99d02f58b0fc86c">fcarouge::eigen::column_vector</a></div><div class="ttdeci">Eigen::Vector&lt; Type, Row &gt; column_vector</div><div class="ttdoc">Compile-time sized Eigen3 column vector.</div><div class="ttdef"><b>Definition</b> <a href="eigen_8hpp_source.xhtml#l00078">eigen.hpp:78</a></div></div>
-<div class="ttc" id="anamespacefcarouge_1_1typed__linear__algebra__internal_xhtml_a4dd57b09634fe03c0fd59b866657ad86"><div class="ttname"><a href="namespacefcarouge_1_1typed__linear__algebra__internal.xhtml#a4dd57b09634fe03c0fd59b866657ad86">fcarouge::typed_linear_algebra_internal::tuple_n_type</a></div><div class="ttdeci">typename tupler&lt; Type, Size &gt;::type tuple_n_type</div><div class="ttdoc">An alias for making a tuple of the same type.</div><div class="ttdef"><b>Definition</b> <a href="utility_8hpp_source.xhtml#l00242">utility.hpp:242</a></div></div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespacefcarouge.xhtml">fcarouge</a> {</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Matrix, <span class="keyword">typename</span> RowIndexes, <span class="keyword">typename</span> ColumnIndexes&gt;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno"><a class="line" href="structfcarouge_1_1typed__matrix.xhtml">   43</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} <span class="comment">// namespace fcarouge</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span><span class="preprocessor">#endif </span><span class="comment">// FCAROUGE_TYPED_LINEAR_ALGEBRA_FORWARD_HPP</span></div>
 <div class="ttc" id="anamespacefcarouge_xhtml"><div class="ttname"><a href="namespacefcarouge.xhtml">fcarouge</a></div><div class="ttdoc">Francois Carouge's projects namespace.</div></div>
-<div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a></div><div class="ttdoc">Strongly typed matrix.</div><div class="ttdef"><b>Definition</b> <a href="typed__linear__algebra__forward_8hpp_source.xhtml#l00043">typed_linear_algebra_forward.hpp:43</a></div></div>
-<div class="ttc" id="atyped__linear__algebra_8hpp_xhtml"><div class="ttname"><a href="typed__linear__algebra_8hpp.xhtml">typed_linear_algebra.hpp</a></div><div class="ttdoc">Typed linear algebra implementation.</div></div>
+<div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix</a></div><div class="ttdoc">Strongly typed matrix.</div><div class="ttdef"><b>Definition</b> <a href="#l00043">typed_linear_algebra_forward.hpp:43</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_5815af820a9cc9481f1d0990a0d60286.xhtml">support</a></li><li class="navelem"><a class="el" href="dir_9465ff112e2182c1b8baafa22795bcd6.xhtml">eigexed</a></li><li class="navelem"><a class="el" href="dir_e5b188ee29900239e7a863318756cf30.xhtml">fcarouge</a></li><li class="navelem"><a class="el" href="eigexed_2fcarouge_2linalg_8hpp.xhtml">linalg.hpp</a></li>
+    <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.xhtml">include</a></li><li class="navelem"><a class="el" href="dir_533ca38e4d6dcb24d3c950d504c67ecf.xhtml">fcarouge</a></li><li class="navelem"><a class="el" href="typed__linear__algebra__forward_8hpp.xhtml">typed_linear_algebra_forward.hpp</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.12.0 </li>
   </ul>
 </div>

@@ -102,8 +102,7 @@ $(function(){initNavTree('typed__linear__algebra_8hpp.xhtml',''); initResizable(
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle"><div class="title">typed_linear_algebra.hpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -117,12 +116,13 @@ $(function(){initNavTree('typed__linear__algebra_8hpp.xhtml',''); initResizable(
 <code>#include &lt;format&gt;</code><br />
 <code>#include &lt;initializer_list&gt;</code><br />
 <code>#include &lt;tuple&gt;</code><br />
+<code>#include &quot;typed_linear_algebra_internal/typed_linear_algebra.tpp&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for typed_linear_algebra.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="typed__linear__algebra_8hpp__incl.svg" width="484" height="303"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><iframe scrolling="no" frameborder="0" src="typed__linear__algebra_8hpp__incl.svg" width="656" height="318"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
@@ -157,53 +157,6 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a68cfd1293d8131d82ca584d6dcfdd02b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a68cfd1293d8131d82ca584d6dcfdd02b">fcarouge::typed_column_vector</a></td></tr>
 <tr class="memdesc:a68cfd1293d8131d82ca584d6dcfdd02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strongly typed column vector.  <br /></td></tr>
 <tr class="separator:a68cfd1293d8131d82ca584d6dcfdd02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:aedd2b285823a2feb3a21d4942829a8c2" id="r_aedd2b285823a2feb3a21d4942829a8c2"><td class="memTemplParams" colspan="2">template&lt;typename Matrix1 , typename Matrix2 , typename RowIndexes , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:aedd2b285823a2feb3a21d4942829a8c2"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#aedd2b285823a2feb3a21d4942829a8c2">fcarouge::operator==</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix1, RowIndexes, ColumnIndexes &gt; &amp;lhs, const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix2, RowIndexes, ColumnIndexes &gt; &amp;rhs)</td></tr>
-<tr class="separator:aedd2b285823a2feb3a21d4942829a8c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00e7c3ec7b458e47794790e050cb59fe" id="r_a00e7c3ec7b458e47794790e050cb59fe"><td class="memTemplParams" colspan="2">template&lt;typename Matrix1 , typename Matrix2 , typename RowIndexes , typename ColumnIndexes , typename Indexes &gt; </td></tr>
-<tr class="memitem:a00e7c3ec7b458e47794790e050cb59fe"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a00e7c3ec7b458e47794790e050cb59fe">fcarouge::operator*</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix1, RowIndexes, Indexes &gt; &amp;lhs, const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix2, Indexes, ColumnIndexes &gt; &amp;rhs)</td></tr>
-<tr class="separator:a00e7c3ec7b458e47794790e050cb59fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a689eeae805b2d8789e9a0267821b0d15" id="r_a689eeae805b2d8789e9a0267821b0d15"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; <br />
-requires tla::singleton&lt;Matrix&gt;</td></tr>
-<tr class="memitem:a689eeae805b2d8789e9a0267821b0d15"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a689eeae805b2d8789e9a0267821b0d15">fcarouge::operator*</a> (Scalar lhs, const Matrix &amp;rhs)</td></tr>
-<tr class="separator:a689eeae805b2d8789e9a0267821b0d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a537752ac8f1801cfe82cd1c3c909239d" id="r_a537752ac8f1801cfe82cd1c3c909239d"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:a537752ac8f1801cfe82cd1c3c909239d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a537752ac8f1801cfe82cd1c3c909239d">fcarouge::operator*</a> (Scalar lhs, const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;rhs)</td></tr>
-<tr class="separator:a537752ac8f1801cfe82cd1c3c909239d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5188040accde0f221f236d8735c3837" id="r_ab5188040accde0f221f236d8735c3837"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; <br />
-requires tla::singleton&lt;Matrix&gt;</td></tr>
-<tr class="memitem:ab5188040accde0f221f236d8735c3837"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#ab5188040accde0f221f236d8735c3837">fcarouge::operator*</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;lhs, Scalar rhs)</td></tr>
-<tr class="separator:ab5188040accde0f221f236d8735c3837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a016305f330897bacd2e9ebf45ee9de9b" id="r_a016305f330897bacd2e9ebf45ee9de9b"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:a016305f330897bacd2e9ebf45ee9de9b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a016305f330897bacd2e9ebf45ee9de9b">fcarouge::operator*</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;lhs, Scalar rhs)</td></tr>
-<tr class="separator:a016305f330897bacd2e9ebf45ee9de9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0d698433b36932e574f63ebe64d7a69" id="r_af0d698433b36932e574f63ebe64d7a69"><td class="memTemplParams" colspan="2">template&lt;typename Matrix1 , typename Matrix2 , typename RowIndexes , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:af0d698433b36932e574f63ebe64d7a69"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#af0d698433b36932e574f63ebe64d7a69">fcarouge::operator+</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix1, RowIndexes, ColumnIndexes &gt; &amp;lhs, const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix2, RowIndexes, ColumnIndexes &gt; &amp;rhs)</td></tr>
-<tr class="separator:af0d698433b36932e574f63ebe64d7a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc43e870ad62cca22e63913816f0654d" id="r_acc43e870ad62cca22e63913816f0654d"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; <br />
-requires tla::singleton&lt;Matrix&gt;</td></tr>
-<tr class="memitem:acc43e870ad62cca22e63913816f0654d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#acc43e870ad62cca22e63913816f0654d">fcarouge::operator+</a> (const Matrix &amp;lhs, Scalar rhs)</td></tr>
-<tr class="separator:acc43e870ad62cca22e63913816f0654d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3533f0e5d01c0ae5533ea62a07bcbdc4" id="r_a3533f0e5d01c0ae5533ea62a07bcbdc4"><td class="memTemplParams" colspan="2">template&lt;typename Matrix1 , typename Matrix2 , typename RowIndexes , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:a3533f0e5d01c0ae5533ea62a07bcbdc4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a3533f0e5d01c0ae5533ea62a07bcbdc4">fcarouge::operator-</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix1, RowIndexes, ColumnIndexes &gt; &amp;lhs, const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix2, RowIndexes, ColumnIndexes &gt; &amp;rhs)</td></tr>
-<tr class="separator:a3533f0e5d01c0ae5533ea62a07bcbdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef1009e17aa266a3adc5fba6bd3322b3" id="r_aef1009e17aa266a3adc5fba6bd3322b3"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; <br />
-requires tla::singleton&lt;Matrix&gt;</td></tr>
-<tr class="memitem:aef1009e17aa266a3adc5fba6bd3322b3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#aef1009e17aa266a3adc5fba6bd3322b3">fcarouge::operator-</a> (Scalar lhs, const Matrix &amp;rhs)</td></tr>
-<tr class="separator:aef1009e17aa266a3adc5fba6bd3322b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab036216395f2fd7b69e4246285d10098" id="r_ab036216395f2fd7b69e4246285d10098"><td class="memTemplParams" colspan="2">template&lt;typename Matrix1 , typename Matrix2 , typename RowIndexes1 , typename RowIndexes2 , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:ab036216395f2fd7b69e4246285d10098"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#ab036216395f2fd7b69e4246285d10098">fcarouge::operator/</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix1, RowIndexes1, ColumnIndexes &gt; &amp;lhs, const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix2, RowIndexes2, ColumnIndexes &gt; &amp;rhs)</td></tr>
-<tr class="separator:ab036216395f2fd7b69e4246285d10098"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f96a907020c9f05bc2d00576ed4deb7" id="r_a0f96a907020c9f05bc2d00576ed4deb7"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; </td></tr>
-<tr class="memitem:a0f96a907020c9f05bc2d00576ed4deb7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a0f96a907020c9f05bc2d00576ed4deb7">fcarouge::operator/</a> (const <a class="el" href="structfcarouge_1_1typed__matrix.xhtml">typed_matrix</a>&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;lhs, Scalar rhs)</td></tr>
-<tr class="separator:a0f96a907020c9f05bc2d00576ed4deb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d3a03801f15365fe149ff21355a6d6e" id="r_a2d3a03801f15365fe149ff21355a6d6e"><td class="memTemplParams" colspan="2">template&lt;tla::arithmetic Scalar, typename Matrix , typename RowIndexes , typename ColumnIndexes &gt; <br />
-requires tla::singleton&lt;Matrix&gt;</td></tr>
-<tr class="memitem:a2d3a03801f15365fe149ff21355a6d6e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacefcarouge.xhtml#a2d3a03801f15365fe149ff21355a6d6e">fcarouge::operator/</a> (const Matrix &amp;lhs, Scalar rhs)</td></tr>
-<tr class="separator:a2d3a03801f15365fe149ff21355a6d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Typed linear algebra implementation. </p>

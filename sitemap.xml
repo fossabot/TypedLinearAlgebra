@@ -8,6 +8,9 @@
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/typed__linear__algebra_8hpp_source.xhtml</loc>
   </url>
   <url>
+    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/typed__linear__algebra__forward_8hpp_source.xhtml</loc>
+  </url>
+  <url>
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/format_8hpp_source.xhtml</loc>
   </url>
   <url>
@@ -107,10 +110,10 @@
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/support_2eigen_2_c_make_lists_8txt.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/support_2eigexed_2_c_make_lists_8txt.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/support_2main_2_c_make_lists_8txt.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/support_2main_2_c_make_lists_8txt.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/support_2eigexed_2_c_make_lists_8txt.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/support_2mp__units_2_c_make_lists_8txt.xhtml</loc>
@@ -129,6 +132,9 @@
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/typed__linear__algebra_8hpp.xhtml</loc>
+  </url>
+  <url>
+    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/typed__linear__algebra__forward_8hpp.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/format_8hpp.xhtml</loc>
@@ -212,10 +218,10 @@
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/multiplication__rxc_8cpp.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/multiplication__sxc_8cpp.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/operator__bracket_8cpp.xhtml</loc>
   </url>
   <url>
-    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/operator__bracket_8cpp.xhtml</loc>
+    <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/multiplication__sxc_8cpp.xhtml</loc>
   </url>
   <url>
     <loc>https://francoiscarouge.github.io/TypedLinearAlgebra/operator__equality_8cpp.xhtml</loc>
