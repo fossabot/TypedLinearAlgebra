@@ -48,7 +48,17 @@ var menudata={children:[
 {text:"Class List",url:"annotated.xhtml"},
 {text:"Class Index",url:"classes.xhtml"},
 {text:"Class Members",url:"functions.xhtml",children:[
-{text:"All",url:"functions.xhtml"},
+{text:"All",url:"functions.xhtml",children:[
+{text:"a",url:"functions.xhtml#index_a"},
+{text:"c",url:"functions.xhtml#index_c"},
+{text:"d",url:"functions.xhtml#index_d"},
+{text:"e",url:"functions.xhtml#index_e"},
+{text:"f",url:"functions.xhtml#index_f"},
+{text:"o",url:"functions.xhtml#index_o"},
+{text:"p",url:"functions.xhtml#index_p"},
+{text:"r",url:"functions.xhtml#index_r"},
+{text:"t",url:"functions.xhtml#index_t"},
+{text:"u",url:"functions.xhtml#index_u"}]},
 {text:"Functions",url:"functions_func.xhtml"},
 {text:"Variables",url:"functions_vars.xhtml"},
 {text:"Typedefs",url:"functions_type.xhtml"}]}]},

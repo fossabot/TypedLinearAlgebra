@@ -336,7 +336,95 @@ $(function(){initNavTree('typed__linear__algebra_8hpp_source.xhtml',''); initRes
 <div class="line"><a id="l00275" name="l00275"></a><span class="lineno">  275</span> </div>
 <div class="line"><a id="l00276" name="l00276"></a><span class="lineno">  276</span><span class="preprocessor">#include &quot;typed_linear_algebra_internal/typed_linear_algebra.tpp&quot;</span></div>
 <div class="line"><a id="l00277" name="l00277"></a><span class="lineno">  277</span> </div>
-<div class="line"><a id="l00278" name="l00278"></a><span class="lineno">  278</span><span class="preprocessor">#endif </span><span class="comment">// FCAROUGE_TYPED_LINEAR_ALGEBRA_HPP</span></div>
+<div class="line"><a id="l00281" name="l00281"></a><span class="lineno">  281</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> Matrix, <span class="keyword">typename</span> RowIndexes, <span class="keyword">typename</span> ColumnIndexes,</div>
+<div class="line"><a id="l00282" name="l00282"></a><span class="lineno">  282</span>          <span class="keyword">typename</span> Char&gt;</div>
+<div class="foldopen" id="foldopen00283" data-start="{" data-end="};">
+<div class="line"><a id="l00283" name="l00283"></a><span class="lineno"><a class="line" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml">  283</a></span><span class="keyword">struct </span>std::formatter&lt;<a class="code hl_namespace" href="namespacefcarouge.xhtml">fcarouge</a>::typed_matrix&lt;Matrix, RowIndexes, ColumnIndexes&gt;,</div>
+<div class="line"><a id="l00284" name="l00284"></a><span class="lineno">  284</span>                      Char&gt; {</div>
+<div class="foldopen" id="foldopen00285" data-start="{" data-end="}">
+<div class="line"><a id="l00285" name="l00285"></a><span class="lineno"><a class="line" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#a899134801f37e61bc8021dde81611963">  285</a></span>  <span class="keyword">constexpr</span> <span class="keyword">auto</span> <a class="code hl_function" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#a899134801f37e61bc8021dde81611963">parse</a>(std::basic_format_parse_context&lt;Char&gt; &amp;parse_context) {</div>
+<div class="line"><a id="l00286" name="l00286"></a><span class="lineno">  286</span>    <span class="keywordflow">return</span> parse_context.begin();</div>
+<div class="line"><a id="l00287" name="l00287"></a><span class="lineno">  287</span>  }</div>
+</div>
+<div class="line"><a id="l00288" name="l00288"></a><span class="lineno">  288</span> </div>
+<div class="line"><a id="l00289" name="l00289"></a><span class="lineno">  289</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutputIterator&gt;</div>
+<div class="line"><a id="l00290" name="l00290"></a><span class="lineno">  290</span>  <span class="keyword">constexpr</span> <span class="keyword">auto</span></div>
+<div class="foldopen" id="foldopen00291" data-start="{" data-end="}">
+<div class="line"><a id="l00291" name="l00291"></a><span class="lineno"><a class="line" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#ad60373a22952f78108372e0bdc6d6d29">  291</a></span>  <a class="code hl_function" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#ad60373a22952f78108372e0bdc6d6d29">format</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix&lt;Matrix, RowIndexes, ColumnIndexes&gt;</a> &amp;value,</div>
+<div class="line"><a id="l00292" name="l00292"></a><span class="lineno">  292</span>         std::basic_format_context&lt;OutputIterator, Char&gt; &amp;format_context) <span class="keyword">const</span></div>
+<div class="line"><a id="l00293" name="l00293"></a><span class="lineno">  293</span>      -&gt; OutputIterator {</div>
+<div class="line"><a id="l00294" name="l00294"></a><span class="lineno">  294</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
+<div class="line"><a id="l00295" name="l00295"></a><span class="lineno">  295</span> </div>
+<div class="line"><a id="l00296" name="l00296"></a><span class="lineno">  296</span>    <span class="keywordflow">for</span> (std::size_t i{0}; i &lt; fcarouge::tla::size&lt;RowIndexes&gt;; ++i) {</div>
+<div class="line"><a id="l00297" name="l00297"></a><span class="lineno">  297</span>      <span class="keywordflow">if</span> (i &gt; 0) {</div>
+<div class="line"><a id="l00298" name="l00298"></a><span class="lineno">  298</span>        format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
+<div class="line"><a id="l00299" name="l00299"></a><span class="lineno">  299</span>      }</div>
+<div class="line"><a id="l00300" name="l00300"></a><span class="lineno">  300</span> </div>
+<div class="line"><a id="l00301" name="l00301"></a><span class="lineno">  301</span>      format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
+<div class="line"><a id="l00302" name="l00302"></a><span class="lineno">  302</span> </div>
+<div class="line"><a id="l00303" name="l00303"></a><span class="lineno">  303</span>      <span class="keywordflow">for</span> (std::size_t j{0}; j &lt; fcarouge::tla::size&lt;ColumnIndexes&gt;; ++j) {</div>
+<div class="line"><a id="l00304" name="l00304"></a><span class="lineno">  304</span>        <span class="keywordflow">if</span> (j &gt; 0) {</div>
+<div class="line"><a id="l00305" name="l00305"></a><span class="lineno">  305</span>          format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
+<div class="line"><a id="l00306" name="l00306"></a><span class="lineno">  306</span>        }</div>
+<div class="line"><a id="l00307" name="l00307"></a><span class="lineno">  307</span> </div>
+<div class="line"><a id="l00308" name="l00308"></a><span class="lineno">  308</span>        format_context.advance_to(</div>
+<div class="line"><a id="l00309" name="l00309"></a><span class="lineno">  309</span>            std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.data(i, j)));</div>
+<div class="line"><a id="l00310" name="l00310"></a><span class="lineno">  310</span>      }</div>
+<div class="line"><a id="l00311" name="l00311"></a><span class="lineno">  311</span> </div>
+<div class="line"><a id="l00312" name="l00312"></a><span class="lineno">  312</span>      format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
+<div class="line"><a id="l00313" name="l00313"></a><span class="lineno">  313</span>    }</div>
+<div class="line"><a id="l00314" name="l00314"></a><span class="lineno">  314</span> </div>
+<div class="line"><a id="l00315" name="l00315"></a><span class="lineno">  315</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
+<div class="line"><a id="l00316" name="l00316"></a><span class="lineno">  316</span> </div>
+<div class="line"><a id="l00317" name="l00317"></a><span class="lineno">  317</span>    <span class="keywordflow">return</span> format_context.out();</div>
+<div class="line"><a id="l00318" name="l00318"></a><span class="lineno">  318</span>  }</div>
+</div>
+<div class="line"><a id="l00319" name="l00319"></a><span class="lineno">  319</span> </div>
+<div class="line"><a id="l00320" name="l00320"></a><span class="lineno">  320</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutputIterator&gt;</div>
+<div class="line"><a id="l00321" name="l00321"></a><span class="lineno">  321</span>  <span class="keyword">constexpr</span> <span class="keyword">auto</span></div>
+<div class="foldopen" id="foldopen00322" data-start="{" data-end="}">
+<div class="line"><a id="l00322" name="l00322"></a><span class="lineno"><a class="line" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#a7579a19d01fe8fb08fde89bfb36b3b74">  322</a></span>  <a class="code hl_function" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#a7579a19d01fe8fb08fde89bfb36b3b74">format</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix&lt;Matrix, RowIndexes, ColumnIndexes&gt;</a> &amp;value,</div>
+<div class="line"><a id="l00323" name="l00323"></a><span class="lineno">  323</span>         std::basic_format_context&lt;OutputIterator, Char&gt; &amp;format_context) <span class="keyword">const</span></div>
+<div class="line"><a id="l00324" name="l00324"></a><span class="lineno">  324</span>      -&gt; OutputIterator</div>
+<div class="line"><a id="l00325" name="l00325"></a><span class="lineno">  325</span>    <span class="keyword">requires</span> fcarouge::tla::row&lt;</div>
+<div class="line"><a id="l00326" name="l00326"></a><span class="lineno">  326</span>        <a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix&lt;Matrix, RowIndexes, ColumnIndexes&gt;</a>&gt;</div>
+<div class="line"><a id="l00327" name="l00327"></a><span class="lineno">  327</span>  {</div>
+<div class="line"><a id="l00328" name="l00328"></a><span class="lineno">  328</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;[&quot;</span>));</div>
+<div class="line"><a id="l00329" name="l00329"></a><span class="lineno">  329</span> </div>
+<div class="line"><a id="l00330" name="l00330"></a><span class="lineno">  330</span>    <span class="keywordflow">for</span> (std::size_t j{0}; j &lt; fcarouge::tla::size&lt;ColumnIndexes&gt;; ++j) {</div>
+<div class="line"><a id="l00331" name="l00331"></a><span class="lineno">  331</span>      <span class="keywordflow">if</span> (j &gt; 0) {</div>
+<div class="line"><a id="l00332" name="l00332"></a><span class="lineno">  332</span>        format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;, &quot;</span>));</div>
+<div class="line"><a id="l00333" name="l00333"></a><span class="lineno">  333</span>      }</div>
+<div class="line"><a id="l00334" name="l00334"></a><span class="lineno">  334</span> </div>
+<div class="line"><a id="l00335" name="l00335"></a><span class="lineno">  335</span>      format_context.advance_to(</div>
+<div class="line"><a id="l00336" name="l00336"></a><span class="lineno">  336</span>          std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.data(0, j)));</div>
+<div class="line"><a id="l00337" name="l00337"></a><span class="lineno">  337</span>    }</div>
+<div class="line"><a id="l00338" name="l00338"></a><span class="lineno">  338</span> </div>
+<div class="line"><a id="l00339" name="l00339"></a><span class="lineno">  339</span>    format_context.advance_to(std::format_to(format_context.out(), <span class="stringliteral">&quot;]&quot;</span>));</div>
+<div class="line"><a id="l00340" name="l00340"></a><span class="lineno">  340</span> </div>
+<div class="line"><a id="l00341" name="l00341"></a><span class="lineno">  341</span>    <span class="keywordflow">return</span> format_context.out();</div>
+<div class="line"><a id="l00342" name="l00342"></a><span class="lineno">  342</span>  }</div>
+</div>
+<div class="line"><a id="l00343" name="l00343"></a><span class="lineno">  343</span> </div>
+<div class="line"><a id="l00344" name="l00344"></a><span class="lineno">  344</span>  <span class="keyword">template</span> &lt;<span class="keyword">typename</span> OutputIterator&gt;</div>
+<div class="line"><a id="l00345" name="l00345"></a><span class="lineno">  345</span>  <span class="keyword">constexpr</span> <span class="keyword">auto</span></div>
+<div class="foldopen" id="foldopen00346" data-start="{" data-end="}">
+<div class="line"><a id="l00346" name="l00346"></a><span class="lineno"><a class="line" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#adea9782ebc9bcc7fc8498aa1b5d7aa37">  346</a></span>  <a class="code hl_function" href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#adea9782ebc9bcc7fc8498aa1b5d7aa37">format</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix&lt;Matrix, RowIndexes, ColumnIndexes&gt;</a> &amp;value,</div>
+<div class="line"><a id="l00347" name="l00347"></a><span class="lineno">  347</span>         std::basic_format_context&lt;OutputIterator, Char&gt; &amp;format_context) <span class="keyword">const</span></div>
+<div class="line"><a id="l00348" name="l00348"></a><span class="lineno">  348</span>      -&gt; OutputIterator</div>
+<div class="line"><a id="l00349" name="l00349"></a><span class="lineno">  349</span>    <span class="keyword">requires</span> fcarouge::tla::singleton&lt;</div>
+<div class="line"><a id="l00350" name="l00350"></a><span class="lineno">  350</span>        <a class="code hl_struct" href="structfcarouge_1_1typed__matrix.xhtml">fcarouge::typed_matrix&lt;Matrix, RowIndexes, ColumnIndexes&gt;</a>&gt;</div>
+<div class="line"><a id="l00351" name="l00351"></a><span class="lineno">  351</span>  {</div>
+<div class="line"><a id="l00352" name="l00352"></a><span class="lineno">  352</span>    format_context.advance_to(</div>
+<div class="line"><a id="l00353" name="l00353"></a><span class="lineno">  353</span>        std::format_to(format_context.out(), <span class="stringliteral">&quot;{}&quot;</span>, value.data(0, 0)));</div>
+<div class="line"><a id="l00354" name="l00354"></a><span class="lineno">  354</span> </div>
+<div class="line"><a id="l00355" name="l00355"></a><span class="lineno">  355</span>    <span class="keywordflow">return</span> format_context.out();</div>
+<div class="line"><a id="l00356" name="l00356"></a><span class="lineno">  356</span>  }</div>
+</div>
+<div class="line"><a id="l00357" name="l00357"></a><span class="lineno">  357</span>};</div>
+</div>
+<div class="line"><a id="l00358" name="l00358"></a><span class="lineno">  358</span> </div>
+<div class="line"><a id="l00359" name="l00359"></a><span class="lineno">  359</span><span class="preprocessor">#endif </span><span class="comment">// FCAROUGE_TYPED_LINEAR_ALGEBRA_HPP</span></div>
 <div class="ttc" id="aformat_8hpp_xhtml"><div class="ttname"><a href="format_8hpp.xhtml">format.hpp</a></div><div class="ttdoc">Formatting support for the typed matrix.</div></div>
 <div class="ttc" id="anamespacefcarouge_1_1typed__linear__algebra__internal_xhtml_a1233ce8915a8ea54b53c7912a477afdc"><div class="ttname"><a href="namespacefcarouge_1_1typed__linear__algebra__internal.xhtml#a1233ce8915a8ea54b53c7912a477afdc">fcarouge::typed_linear_algebra_internal::underlying_t</a></div><div class="ttdeci">std::remove_cvref_t&lt; decltype(std::declval&lt; Matrix &gt;()(0, 0))&gt; underlying_t</div><div class="ttdoc">The underlying storage type of the matrix's elements.</div><div class="ttdef"><b>Definition</b> <a href="utility_8hpp_source.xhtml#l00140">utility.hpp:140</a></div></div>
 <div class="ttc" id="anamespacefcarouge_1_1typed__linear__algebra__internal_xhtml_a779b86b92edb4191f64f6a286495d228"><div class="ttname"><a href="namespacefcarouge_1_1typed__linear__algebra__internal.xhtml#a779b86b92edb4191f64f6a286495d228">fcarouge::typed_linear_algebra_internal::element</a></div><div class="ttdeci">product&lt; std::tuple_element_t&lt; RowIndex, typename Matrix::row_indexes &gt;, std::tuple_element_t&lt; ColumnIndex, typename Matrix::column_indexes &gt; &gt; element</div><div class="ttdoc">The type of the element at the given matrix indexes position.</div><div class="ttdef"><b>Definition</b> <a href="utility_8hpp_source.xhtml#l00145">utility.hpp:145</a></div></div>
@@ -365,6 +453,10 @@ $(function(){initNavTree('typed__linear__algebra_8hpp_source.xhtml',''); initRes
 <div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml_ab04e1fa2704c503f7d6189238704c53a"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml#ab04e1fa2704c503f7d6189238704c53a">fcarouge::typed_matrix::column_indexes</a></div><div class="ttdeci">ColumnIndexes column_indexes</div><div class="ttdoc">The tuple with the column components of the indexes.</div><div class="ttdef"><b>Definition</b> <a href="#l00112">typed_linear_algebra.hpp:112</a></div></div>
 <div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml_adaee34e6a18720f4b6d6cde62d11d129"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml#adaee34e6a18720f4b6d6cde62d11d129">fcarouge::typed_matrix::typed_matrix</a></div><div class="ttdeci">constexpr typed_matrix(const Types &amp;...values)</div><div class="ttdef"><b>Definition</b> <a href="#l00183">typed_linear_algebra.hpp:183</a></div></div>
 <div class="ttc" id="astructfcarouge_1_1typed__matrix_xhtml_af6be5fe000ae7ae363a9a01fec688d57"><div class="ttname"><a href="structfcarouge_1_1typed__matrix.xhtml#af6be5fe000ae7ae363a9a01fec688d57">fcarouge::typed_matrix::element</a></div><div class="ttdeci">tla::element&lt; typed_matrix, RowIndex, ColumnIndex &gt; element</div><div class="ttdoc">The type of the element at the given matrix indexes position.</div><div class="ttdef"><b>Definition</b> <a href="#l00116">typed_linear_algebra.hpp:116</a></div></div>
+<div class="ttc" id="astructstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4_xhtml_a7579a19d01fe8fb08fde89bfb36b3b74"><div class="ttname"><a href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#a7579a19d01fe8fb08fde89bfb36b3b74">std::formatter&lt; fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;::format</a></div><div class="ttdeci">constexpr auto format(const fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</div><div class="ttdef"><b>Definition</b> <a href="#l00322">typed_linear_algebra.hpp:322</a></div></div>
+<div class="ttc" id="astructstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4_xhtml_a899134801f37e61bc8021dde81611963"><div class="ttname"><a href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#a899134801f37e61bc8021dde81611963">std::formatter&lt; fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;::parse</a></div><div class="ttdeci">constexpr auto parse(std::basic_format_parse_context&lt; Char &gt; &amp;parse_context)</div><div class="ttdef"><b>Definition</b> <a href="#l00285">typed_linear_algebra.hpp:285</a></div></div>
+<div class="ttc" id="astructstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4_xhtml_ad60373a22952f78108372e0bdc6d6d29"><div class="ttname"><a href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#ad60373a22952f78108372e0bdc6d6d29">std::formatter&lt; fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;::format</a></div><div class="ttdeci">constexpr auto format(const fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</div><div class="ttdef"><b>Definition</b> <a href="#l00291">typed_linear_algebra.hpp:291</a></div></div>
+<div class="ttc" id="astructstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4_xhtml_adea9782ebc9bcc7fc8498aa1b5d7aa37"><div class="ttname"><a href="structstd_1_1formatter_3_01fcarouge_1_1typed__matrix_3_01_matrix_00_01_row_indexes_00_01_column_indexes_01_4_00_01_char_01_4.xhtml#adea9782ebc9bcc7fc8498aa1b5d7aa37">std::formatter&lt; fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt;, Char &gt;::format</a></div><div class="ttdeci">constexpr auto format(const fcarouge::typed_matrix&lt; Matrix, RowIndexes, ColumnIndexes &gt; &amp;value, std::basic_format_context&lt; OutputIterator, Char &gt; &amp;format_context) const -&gt; OutputIterator</div><div class="ttdef"><b>Definition</b> <a href="#l00346">typed_linear_algebra.hpp:346</a></div></div>
 <div class="ttc" id="autility_8hpp_xhtml"><div class="ttname"><a href="utility_8hpp.xhtml">utility.hpp</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
