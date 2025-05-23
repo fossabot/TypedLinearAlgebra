@@ -1,12 +1,15 @@
 <map id="/github/workspace/include/fcarouge/typed_linear_algebra_internal/utility.hpp" name="/github/workspace/include/fcarouge/typed_linear_algebra_internal/utility.hpp">
 <area shape="rect" id="Node000001" title=" " alt="" coords="142,5,320,61"/>
-<area shape="rect" id="Node000002" href="$typed__linear__algebra_8hpp.xhtml" title="Typed linear algebra implementation." alt="" coords="145,109,317,165"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,77,234,108,228,108,228,77"/>
-<area shape="rect" id="Node000003" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="83,213,257,253"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,179,185,214,180,211,203,176"/>
-<area shape="rect" id="Node000005" href="$eigexed_2fcarouge_2linalg_8hpp.xhtml" title="Scalar type linear algebra with Eigen implementation." alt="" coords="203,301,384,342"/>
-<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="256,178,271,212,285,259,293,300,288,301,280,260,266,214,251,180"/>
-<area shape="rect" id="Node000004" href="$eigen_2fcarouge_2linalg_8hpp.xhtml" title=" " alt="" coords="5,301,180,342"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,267,112,303,108,299,140,263"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="212,260,267,299,264,303,209,265"/>
+<area shape="rect" id="Node000002" href="$typed__linear__algebra_8hpp.xhtml" title="Typed linear algebra implementation." alt="" coords="145,213,317,268"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="208,76,195,110,191,137,195,164,204,188,215,211,211,213,199,191,190,165,185,137,190,108,203,74"/>
+<area shape="rect" id="Node000006" href="$format_8hpp.xhtml" title="Formatting support for the typed matrix." alt="" coords="204,109,389,165"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="259,73,281,107,277,110,255,76"/>
+<area shape="rect" id="Node000003" href="$eigen_8hpp.xhtml" title="Linear algebra facade for Eigen3 third party implementation." alt="" coords="83,316,257,357"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="207,283,185,318,180,315,203,280"/>
+<area shape="rect" id="Node000005" href="$eigexed_2fcarouge_2linalg_8hpp.xhtml" title="Scalar type linear algebra with Eigen implementation." alt="" coords="203,405,384,446"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="256,281,271,315,285,363,293,404,288,405,280,364,266,317,251,283"/>
+<area shape="rect" id="Node000004" href="$eigen_2fcarouge_2linalg_8hpp.xhtml" title=" " alt="" coords="5,405,180,446"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="144,371,112,406,108,403,140,367"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="212,364,267,402,264,407,209,368"/>
+<area shape="poly" id="edge7_Node000006_Node000002" title=" " alt="" coords="273,180,251,213,246,211,268,177"/>
 </map>
