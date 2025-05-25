@@ -2,6 +2,7 @@ var utility_8hpp =
 [
     [ "element", "utility_8hpp.xhtml#a779b86b92edb4191f64f6a286495d228", null ],
     [ "evaluate", "utility_8hpp.xhtml#a185964b5c8d035580b458b26a229a549", null ],
+    [ "identity_index", "utility_8hpp.xhtml#af60dfb9fb7ed5802f1465f1c1e4a242b", null ],
     [ "product", "utility_8hpp.xhtml#aca585f39845dac1a268a75826589014c", null ],
     [ "quotient", "utility_8hpp.xhtml#ad9aae459061728b7d7b2ae70196f2028", null ],
     [ "repack", "utility_8hpp.xhtml#a8beb8d3741b310de71851a081557455e", null ],

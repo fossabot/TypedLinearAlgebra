@@ -126,6 +126,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>multiplies</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type multiplies expression type specialization point. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>multiplies&lt; std::type_identity&lt; void &gt;, Type &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>multiplies&lt; Type, std::type_identity&lt; void &gt; &gt;</b></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>repacker</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><b>repacker&lt; Pack&lt; Types... &gt; &gt;</b></td></tr>
@@ -171,6 +175,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a4dd57b09634fe03c0fd59b866657ad86"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a4dd57b09634fe03c0fd59b866657ad86">tuple_n_type</a> = typename tupler&lt;Type, Size&gt;::type</td></tr>
 <tr class="memdesc:a4dd57b09634fe03c0fd59b866657ad86"><td class="mdescLeft">&#160;</td><td class="mdescRight">An alias for making a tuple of the same type.  <br /></td></tr>
 <tr class="separator:a4dd57b09634fe03c0fd59b866657ad86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af60dfb9fb7ed5802f1465f1c1e4a242b" id="r_af60dfb9fb7ed5802f1465f1c1e4a242b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af60dfb9fb7ed5802f1465f1c1e4a242b">identity_index</a> = std::tuple&lt;std::type_identity&lt;void&gt;&gt;</td></tr>
+<tr class="memdesc:af60dfb9fb7ed5802f1465f1c1e4a242b"><td class="mdescLeft">&#160;</td><td class="mdescRight">One-element transparent tuple index.  <br /></td></tr>
+<tr class="separator:af60dfb9fb7ed5802f1465f1c1e4a242b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
@@ -228,6 +235,24 @@ template&lt;typename Type &gt; </div>
 <p>Evaluater helper type. </p>
 
 <p class="definition">Definition at line <a class="el" href="utility_8hpp_source.xhtml#l00079">79</a> of file <a class="el" href="utility_8hpp_source.xhtml">utility.hpp</a>.</p>
+
+</div>
+</div>
+<a id="af60dfb9fb7ed5802f1465f1c1e4a242b" name="af60dfb9fb7ed5802f1465f1c1e4a242b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af60dfb9fb7ed5802f1465f1c1e4a242b">&#9670;&#160;</a></span>identity_index</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="#af60dfb9fb7ed5802f1465f1c1e4a242b">fcarouge::typed_linear_algebra_internal::identity_index</a> = std::tuple&lt;std::type_identity&lt;void&gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One-element transparent tuple index. </p>
+
+<p class="definition">Definition at line <a class="el" href="utility_8hpp_source.xhtml#l00245">245</a> of file <a class="el" href="utility_8hpp_source.xhtml">utility.hpp</a>.</p>
 
 </div>
 </div>
