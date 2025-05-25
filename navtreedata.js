@@ -100,7 +100,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "addition_8cpp.xhtml",
-"structfcarouge_1_1typed__matrix.xhtml#a68813df101c471fdc0606ec04fb9dd6e"
+"structfcarouge_1_1typed__matrix.xhtml#a4cb6909ad42c9f4560dbf7c51e5ed1e4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
