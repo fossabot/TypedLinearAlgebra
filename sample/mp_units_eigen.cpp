@@ -156,7 +156,7 @@ using row_vector =
   using mp_units::si::unit_symbols::s;
   using mp_units::si::unit_symbols::s2;
 
-  using position = quantity<mp_units::isq::length[mp_units::si::metre]>;
+  using position = quantity<mp_units::isq::length[m]>;
   using velocity = quantity<mp_units::isq::velocity[m / s]>;
   using acceleration = quantity<mp_units::isq::acceleration[m / s2]>;
 
